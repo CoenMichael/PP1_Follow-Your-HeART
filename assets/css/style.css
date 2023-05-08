@@ -64,12 +64,18 @@ h1, h2 {
     border-bottom: 1px solid #697096;
 }
 
-/* hero image */
+/* hero image  and tagline*/
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#tagline, #tagline h2 {
+    color: #7783B7;
 }
 
 #hero-image {
@@ -80,3 +86,23 @@ h1, h2 {
     background-size: cover;
     opacity: 0.8;
 }
+
+#tagline {
+    font-size: 250%;
+    font-family: Aegreya Sans, sans-serif;
+    letter-spacing: 2px;
+
+    width: 450px;
+    height: 400px;
+
+    padding-top: 40px;
+    padding-left: 40px;
+
+    background-color: rgba(246, 249, 250, .6);
+
+    bottom: 75px;
+    right: 150px;
+
+    position: absolute;
+}
+
