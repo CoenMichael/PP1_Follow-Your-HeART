@@ -85,7 +85,26 @@ h1, h2 {
     background-color: #97b8c8;
     background-size: cover;
     opacity: 0.8;
+
+/* animates the hero image upon opening the page 
+
+    animation-name: hero-rise;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; */
+
 }
+
+
+/* level of hero image moving upwards */
+
+/* @keyframes hero-rise { 
+    from {
+        top:800 ;
+    }
+    to {
+        top: 1000px;
+    } 
+} */
 
 #tagline {
     font-size: 250%;
