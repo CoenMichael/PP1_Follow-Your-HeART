@@ -10,7 +10,14 @@ body {
     font-family: Aegreya Sans, sans-serif;
     font-weight: 300;
     color: #1D2237;
+    background-color: #97b8c8;
 }
+
+header {
+    background-color: #F6F9FA;
+    height: 75px;
+}
+
 
 /* Headings and Logo */
 
@@ -55,4 +62,21 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #697096;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-color: #97b8c8;
+    background-size: cover;
+    opacity: 0.8;
 }
