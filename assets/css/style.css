@@ -133,12 +133,13 @@ h1, h2 {
 
 
 #about-outer {
-    height: 900px;
+    height: 600px;
     width: 100%;
     
     position: relative;
 
     padding-top: 75px;
+    padding-bottom: 75px;
     
 
 }
@@ -151,7 +152,7 @@ h1, h2 {
 
 
 #about-image {
-    height: 900px;
+    height: 600px;
     width: 100%;
     background: url('../images/about-image.jpg') no-repeat center center;
     background-color: #97b8c8;
@@ -189,7 +190,7 @@ h1, h2 {
 #tutor-outer {
     height: 600px;
     width: 100%;
-    
+
 
     background-color: rgba(246, 249, 250, 1);
 
@@ -213,22 +214,56 @@ h1, h2 {
     padding-top: 25px;
 }
 
-#tutor-left {
+.tutor {
     padding-top: 25px;
     width: 33%;
+}
+
+#tutor-left {
+    
     float: left;
-    background-color: blue;
 }
 
 #tutor-right {
-    padding-top: 25px;
-    width: 33%;
+  
     float: right;
-    background-color: red;
 }
 
 #tutor-center {
-    width: 33%;
+  
     margin: 0 auto;
-    background-color: green;
+}
+
+.circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgba(105, 150, 143, .6);
+    border-width: 4px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-image-center {
+    background: url('../images/tutor-center-image.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+#circle-image-left {
+    background: url('../images/tutor-left-image.png') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+    
+    
+}
+
+#circle-image-right {
+    background: url('../images/tutor-right-image.png') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
