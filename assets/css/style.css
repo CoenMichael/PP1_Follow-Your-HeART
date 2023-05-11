@@ -192,7 +192,7 @@ h1, h2 {
 /* Meet the Tutor section */
 
 #tutor-outer {
-    height: 600px;
+    height: 675px;
     width: 100%;
 
 
@@ -270,4 +270,12 @@ h1, h2 {
     background-size: cover;
     height: 100%;
     border-radius: 50%;
+}
+
+.tutor-class {
+    font-size: 105%;
+    font-family: Aegreya Sans, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
 }
