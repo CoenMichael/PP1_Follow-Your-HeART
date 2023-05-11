@@ -90,26 +90,8 @@ h1, h2 {
     background-size: cover;
     background-position: center 60%;
     opacity: 0.8;
-
-/* animates the hero image upon opening the page 
-
-    animation-name: hero-rise;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
-
 }
 
-
-/* level of hero image moving upwards */
-
-/* @keyframes hero-rise { 
-    from {
-        top:800 ;
-    }
-    to {
-        top: 1000px;
-    } 
-} */
 
 #tagline {
     font-size: 250%;
@@ -278,4 +260,42 @@ h1, h2 {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+    background-color: #F6F9FA;
+    margin-top: 75px;
+}
+
+.footer-text{
+    float: left;
+    font-size: 80%;
+    font-family: Aegreya Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.social-links {
+    text-align: right;
+}
+
+
+
+.social-links > li {
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+.social-links i {
+    font-size: 160%;
+    color: #697096;
+    letter-spacing: 50px;
+}
+
+.social-links i:hover {
+    color: #69968F;
 }
