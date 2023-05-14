@@ -324,3 +324,31 @@ footer {
 #gallery-images > img {
     width: 100%;
 }
+
+/* media queries */
+
+@media screen  and (max-width: 1200px) {
+    #tutor-outer {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #tutor-text {
+        padding: 25px 0;
+        margin: 0;
+    }
+
+    #tutor-left, #tutor-right {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #tutor-center {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+}
