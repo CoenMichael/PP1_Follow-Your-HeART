@@ -103,7 +103,7 @@ h1, h2 {
     font-size: 250%;
     font-family: Aegreya Sans, sans-serif;
     letter-spacing: 2px;
-
+  
     width: 450px;
     height: 400px;
 
@@ -196,6 +196,7 @@ h1, h2 {
     color: #7783B7;
     text-align: center;
     padding-top: 25px;
+    text-transform: uppercase;
 }
 
 #tutor-text p {
@@ -310,4 +311,16 @@ footer {
 
 .social-links i:hover {
     color: #69968F;
+}
+
+/* gallery section */
+#gallery-images {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#gallery-images > img {
+    width: 100%;
 }
