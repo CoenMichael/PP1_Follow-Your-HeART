@@ -327,8 +327,8 @@ footer {
 
 /* media queries */
 
-@media screen  and (max-width: 1200px) {
-    #tutor-outer {
+/* @media screen  and (max-width: 1200px) { 
+    #tutor-outer { 
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -351,4 +351,21 @@ footer {
         float: left;
         padding: 0;
     }
-}
+ /* } /* */
+
+ .contact-section {
+    clear: left;
+    background: url("../images/contact-image.jpg");
+    background-size: cover;
+    background-size: center;
+    height: 900px;
+    
+ }
+
+ .button:focus {
+    background-color: #7783B7;
+    color: #F6F9FA;
+ }
+ 
+
+ 
