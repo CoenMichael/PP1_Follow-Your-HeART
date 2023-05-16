@@ -325,6 +325,100 @@ footer {
     width: 100%;
 }
 
+/* Contact Us section */
+
+ .contact-section {
+    clear: left;
+    background: url("../images/contact-image.jpg");
+    background-size: cover;
+    background-size: center;
+    height: 900px;
+
+    border: 4px solid rgba(105, 150, 143, .6);
+    
+ }
+
+ .contact-form {
+    margin: 150px 10% 0 0;
+    color: #1D2237;
+    background-color: rgba(246, 249, 250, .8);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+
+    border-radius: 25px;
+    border: 4px solid rgba(105, 150, 143, .6);
+
+    font-family: Aegreya Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   
+ }
+
+ .contact-form > h2 {
+    margin-bottom: 20px;
+    text-align: center;
+ }
+
+ .contact-form > p {
+    margin-bottom: 20px;
+    text-align: center;
+
+ }
+
+ .contact-details {
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+
+    border: 1px solid rgba(105, 150, 143, .8);
+    border-radius: 2px;
+    
+ }
+
+ .contact-details:hover {
+    border-color: #697096;
+ }
+
+ .submit-btn {
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #697096;
+    color: rgba(246, 249, 250, .8);
+    display: block;
+ }
+
+ .submit-btn:hover {
+    background-color: #fafafa;
+    color:   #697096;
+
+    /* border: 1px solid rgba(105, 150, 143, .8); */
+ }
+
+ .class-btn {
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 8px 13px 8px 13px;
+    text-align: center;
+    font-size: 90%;
+    background-color: rgba(105, 150, 143, 1);
+    color: rgba(246, 249, 250, .8);
+    display: inline;
+ }
+
+ .class-btn:focus {
+    background-color: #fafafa;
+    color:   #697096;
+ }
+
+ 
+ 
 /* media queries */
 
 /* @media screen  and (max-width: 1200px) { 
@@ -352,20 +446,4 @@ footer {
         padding: 0;
     }
  /* } /* */
-
- .contact-section {
-    clear: left;
-    background: url("../images/contact-image.jpg");
-    background-size: cover;
-    background-size: center;
-    height: 900px;
-    
- }
-
- .button:focus {
-    background-color: #7783B7;
-    color: #F6F9FA;
- }
- 
-
  
