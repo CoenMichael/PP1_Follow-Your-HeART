@@ -417,6 +417,30 @@ footer {
     color:   #697096;
  }
 
+ /* Classes section */
+
+ .classes-section {
+    color: #1D2237;
+    font-family: Aegreya Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+ }
+
+#class-heading h2 {
+    font-size: 250%;
+    color: #7783B7;
+    text-align: center;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
+#class-heading p {
+    text-align: center;
+}
+
+
+ 
+
  
  
 /* media queries */
