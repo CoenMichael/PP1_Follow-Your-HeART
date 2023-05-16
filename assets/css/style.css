@@ -430,12 +430,13 @@ footer {
     font-size: 250%;
     color: #7783B7;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px 0;
     text-transform: uppercase;
 }
 
 #class-heading p {
     text-align: center;
+    padding-bottom: 25px;
 }
 
 #classes-container {
