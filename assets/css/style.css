@@ -295,8 +295,6 @@ footer {
 }
 
 
-
-
 .social-links > li {
     display: inline;
     margin-right: 30px;
@@ -419,11 +417,13 @@ footer {
 
  /* Classes section */
 
- .classes-section {
+ #classes-section {
     color: #1D2237;
     font-family: Aegreya Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+
+    height: 900px;
  }
 
 #class-heading h2 {
@@ -438,8 +438,56 @@ footer {
     text-align: center;
 }
 
+#classes-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-warp: wrap;
+}
 
+.column_left {
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/class1.jpg);
+    background-size: cover;
+    border-radius: 30px;
+
+}
+
+.column_right {
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/class3.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+ .column_center {
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/class2.jpg);
+    background-size: cover;
+    border-radius: 30px;
+ }
  
+
+ .class-text {
+    font-family: Aegreya Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    text-align: center;
+
+    padding-top: 25px;
+
+    background-color: rgba(246, 249, 250, .8) ;
+
+    width: 500px;
+    height: 500px;
+
+    border-radius: 30px;
+ }
 
  
  
