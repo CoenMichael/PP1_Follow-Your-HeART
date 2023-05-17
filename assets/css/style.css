@@ -396,7 +396,7 @@ footer {
     background-color: #fafafa;
     color:   #697096;
 
-    /* border: 1px solid rgba(105, 150, 143, .8); */
+    
  }
 
  .class-btn {
@@ -412,7 +412,7 @@ footer {
 
  .class-btn:focus {
     background-color: #fafafa;
-    color:   #697096;
+    color:   rgba(105, 150, 143, 1);
  }
 
  /* Classes section */
@@ -490,14 +490,34 @@ footer {
     border-radius: 30px;
  }
 
+ .class-text > h3 {
+    padding-top: 50px;
+    font-size: 250%;
+ }
+
+ .class-text > p {
+    padding: 50px 0;
+ }
+
+
+
+
+ .class-btn:hover {
+    background-color: #F6F9FA;
+    color: rgba(105, 150, 143, 1);;
+ }
+ div a {
+    text-decoration: none;
+    
+ }
 
  /* Style to enlarge container when user hovers over with mouse */
 
- .grow { 
+ .scale { 
     transition: all .2s ease-in-out; 
     }
 
-.grow:hover { 
+.scale:hover { 
         transform: scale(1.1); 
     }
 
