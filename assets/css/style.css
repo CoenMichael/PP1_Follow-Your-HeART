@@ -482,13 +482,24 @@ footer {
 
     padding-top: 25px;
 
-    background-color: rgba(246, 249, 250, .8) ;
+
 
     width: 500px;
     height: 500px;
 
     border-radius: 30px;
  }
+
+
+ /* Style to enlarge container when user hovers over with mouse */
+
+ .grow { 
+    transition: all .2s ease-in-out; 
+    }
+
+.grow:hover { 
+        transform: scale(1.1); 
+    }
 
  
  
