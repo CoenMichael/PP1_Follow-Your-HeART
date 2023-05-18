@@ -415,6 +415,8 @@ footer {
     color:   rgba(105, 150, 143, 1);
  }
 
+
+
  /* Classes section */
 
  #classes-section {
@@ -432,7 +434,6 @@ footer {
     text-align: center;
     padding: 25px 0;
     text-transform: uppercase;
-
     
 }
 
@@ -484,8 +485,6 @@ footer {
 
     padding-top: 25px;
 
-
-
     width: 500px;
     height: 500px;
 
@@ -501,7 +500,11 @@ footer {
     padding: 50px 0;
  }
 
-
+hr {
+    border: 1px solid  rgba(105, 150, 143, 1);
+    margin: 10px 0;
+    width: 50%;
+}
 
 
  .class-btn:hover {
@@ -509,16 +512,64 @@ footer {
     color: rgba(105, 150, 143, 1);;
  }
  div a {
-    text-decoration: none;
-    
+    text-decoration: none;   
  }
+
+ /* Class list in Classes section */
+
 
  #class-list-outer {
     height: 600px;
-    background-color: rgba(246, 249, 250, .8);
+    background-color: rgba(246, 249, 250, 1);
  }
 
- /* Style to enlarge container when user hovers over with mouse */
+ #class-list-outer ul {
+    list-style-type: none;
+ }
+
+ #class-list-outer h2 {
+    font-size: 150%;
+    text-transform: uppercase;
+ }
+
+ #left-list {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+ }
+
+ #right-list {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+ }
+
+ #center-list {
+    width: 33%;
+    margin: 0 auto;
+ }
+
+ #left-list-heading {
+    width: 60%;
+    line-height: 20px;
+    float: right;
+    clear: both;
+ }
+
+ #right-list-heading {
+    width: 60%;
+    line-height: 20px;
+    float: left;
+    clear: both;
+ } 
+
+ #center-list-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+ }
+
+ /* Style to enlarge  Class price containers when user hovers over with cursor */
 
  .scale { 
     transition: all .2s ease-in-out; 
