@@ -425,7 +425,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 2px;
 
-    height: 750px;
+    height: 700px;
  }
 
 #class-heading h2 {
@@ -506,6 +506,10 @@ hr {
     width: 50%;
 }
 
+#center-list-heading hr {
+    margin: 10px auto;
+}
+
 
  .class-btn:hover {
     background-color: #F6F9FA;
@@ -526,9 +530,12 @@ hr {
  #class-list-outer ul {
     list-style-type: none;
  }
+ #class-list-outer ul, li {
+    padding: 10px 0;
+ } 
 
  #class-list-outer h2 {
-    font-size: 150%;
+    font-size: 125%;
     text-transform: uppercase;
  }
 
@@ -546,7 +553,10 @@ hr {
 
  #center-list {
     width: 33%;
+    padding-top: 30px;
     margin: 0 auto;
+
+    text-align: center;
  }
 
  #left-list-heading {
@@ -566,13 +576,41 @@ hr {
  #center-list-heading {
     width: 60%;
     line-height: 20px;
-    clear: both;
+    /* padding-top: 30px; */
  }
+
+ #center-list-heading ul {
+    display: inline-block;
+    text-align: left;
+ }
+
+ .dates-container {
+    width: 300px;
+    height: 200px;
+
+    background-color: #7783B7;
+    color: #F6F9FA;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 110%;
+
+    margin: 10px auto;
+
+    border-radius: 30px;
+    border: 2px solid  rgba(105, 150, 143, 1);
+    padding-top: 10px;
+
+ }
+
+ .fa-paintbrush, .fa-pencil, .fa-palette {
+    padding-right: 5px;
+ }
+
 
  /* Style to enlarge  Class price containers when user hovers over with cursor */
 
  .scale { 
-    transition: all .2s ease-in-out; 
+    transition: all .3s ease-in-out; 
     }
 
 .scale:hover { 
