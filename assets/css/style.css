@@ -31,12 +31,13 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
-    padding-left: 50px;
+    font-size: 220%;
+    padding-left: 30px;
 }
 
 .fa-solid {
     color: #69968F;
+    font-size: 80%;
 }
 
 /* Nav menu links */
@@ -293,12 +294,14 @@ footer {
 
 .footer-text{
     float: left;
-    font-size: 80%;
+    font-size: 70%;
     font-family: Aegreya Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 25px 50px 25px 50px;
+    /* padding: 25px 50px 25px 50px; */
+    margin: 25px 30px;
 }
+
 
 .footer-text hr {
     border: 1px solid  rgba(105, 150, 143, 1);
@@ -307,21 +310,21 @@ footer {
 }
 
 .social-links {
-    text-align: right;
+    float: right;
     padding-top: 50px;
 }
 
 
 .social-links > li {
     display: inline;
-    margin-right: 30px;
+    margin-right: 20px;
     
 }
 
 .social-links i {
-    font-size: 160%;
+    font-size: 150%;
     color: #697096;
-    letter-spacing: 50px;
+    letter-spacing: 30px;
     
 }
 
@@ -644,6 +647,8 @@ hr {
         width: 65%;
         height: 1600px;
         margin: 0 auto;
+
+        border-radius: 30px;
     }
 
     #tutor-text {
@@ -666,3 +671,17 @@ hr {
 
 }
  
+/* Media screens 950px wide and below */
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    } 
+
+    header {
+        height: 150px;
+    }
+}
