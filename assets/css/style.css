@@ -333,7 +333,9 @@ footer {
     color: #69968F;
 }
 
+
 /* gallery section */
+
 #gallery-images {
     clear: both;
     line-height: 0;
@@ -438,8 +440,6 @@ footer {
     color:   rgba(105, 150, 143, 1);
  }
 
-
-
  /* Classes section */
 
  #classes-section {
@@ -474,7 +474,7 @@ footer {
 }
 
 .column_left {
-    width: 500px;
+    width: 33%;
     height: 500px;
     background-image: url(../images/class1.jpg);
     background-size: cover;
@@ -483,7 +483,7 @@ footer {
 }
 
 .column_right {
-    width: 500px;
+    width: 33%;
     height: 500px;
     background-image: url(../images/class3.jpg);
     background-size: cover;
@@ -491,7 +491,7 @@ footer {
 }
 
  .column_center {
-    width: 500px;
+    width: 33%;
     height: 500px;
     background-image: url(../images/class2.jpg);
     background-size: cover;
@@ -507,9 +507,6 @@ footer {
     text-align: center;
 
     padding-top: 25px;
-
-    width: 500px;
-    height: 500px;
 
     border-radius: 30px;
  }
@@ -548,6 +545,9 @@ hr {
  #class-list-outer {
     height: 600px;
     background-color: rgba(246, 249, 250, 1);
+
+    padding-left: 30px;
+    padding-right: 30px;
  }
 
  #class-list-outer ul {
@@ -582,22 +582,26 @@ hr {
     text-align: center;
  }
 
+ .list-ctrls {
+    padding: 0 5px;
+ }
+
  #left-list-heading {
-    width: 60%;
+  
     line-height: 20px;
     float: right;
     clear: both;
  }
 
  #right-list-heading {
-    width: 60%;
+   
     line-height: 20px;
     float: left;
     clear: both;
  } 
 
  #center-list-heading {
-    width: 60%;
+  
     line-height: 20px;
     /* padding-top: 30px; */
  }
@@ -646,7 +650,7 @@ hr {
 
  @media screen  and (max-width: 1200px) {  
      #tutor-outer {  
-        height: 1600px;
+        height: 1650px;
         margin: 0 auto;
     }
 
@@ -655,9 +659,15 @@ hr {
         margin-bottom: 20px;
     }
 
-    #tutor-left, #tutor-right {
+    #tutor-left {
         width: 100%;
         float: left;
+        padding: 0;
+    }
+
+    #tutor-right {
+        width: 100%;
+        float: right;
         padding: 0;
     }
 
@@ -695,6 +705,7 @@ hr {
         line-height: 25px;
         
         padding-top: 0;
+        padding-left: 30px;
     }
 
     footer {
