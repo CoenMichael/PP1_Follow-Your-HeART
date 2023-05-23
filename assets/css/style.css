@@ -253,6 +253,7 @@ h1, h2 {
 
 #circle-image-center {
     background: url('../images/tutor-center-image.jpg') no-repeat center center;
+    background-size: cover;
     height: 100%;
     border-radius: 50%;
 }
@@ -280,6 +281,7 @@ h1, h2 {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+    padding-bottom: 20px;
 }
 
 /* footer */
@@ -744,9 +746,126 @@ hr {
 @media screen and (max-width: 590px) {
     .footer-container {
     flex-direction: column;
+
+    width: 50%;
+    margin: auto;
     }
 
     footer {
         height: 450px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+   #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 80%;
+   } 
+    
+   #logo {
+    font-size: 80%;
+   }
+
+   #tagline {
+    width: 50%;
+    height: 50%;
+    /* margin: auto; */
+
+    font-size: 150%;
+}
+
+#about-text {
+    width: 50%;
+    height: 70%;
+
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 90%;
+
+    top: 100px;
+}
+
+/* Set media query for minimum screen size of 375px */
+
+@media screen and (min-width: 375px) {
+   
+   header {
+    height: 120px;
+   }
+
+    #logo {
+    font-size: 150%;
+    text-align: center;
+    float: none;
+    padding-left: 0;
+    }
+
+    #menu {
+        font-size: 60%;
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        position: inherit;
+    }
+    #hero-outer, #hero-image {
+        height: 400px;
+    }
+
+    #tagline {
+        width: 80%;
+        height: 60%;
+        font-size: 150%;
+        top: 30px;
+    }
+
+    #about-outer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #about-text {
+        width: 80%;
+        height: 70%;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 90%;
+        top: 50px;
+    }
+
+    #tutor-outer {
+        height: 1300px;
+    }
+
+    #tutor-text {
+        padding: 10px;
+        font-size: 90%;
+    }
+
+    .circle-container {
+        width: 200px;
+        height: 200px;
+        padding: 15px;
+    }
+
+    footer {
+        margin-top: 25px;
+        height: 400px;
+    }
+
+    .footer-container {
+        margin: 0 auto;
+        font-size: 60%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .footer-container hr {
+        margin: 10px auto;
     }
 }
