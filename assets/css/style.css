@@ -288,44 +288,66 @@ footer {
     height: 150px;
     background-color: #F6F9FA;
     margin-top: 75px;
-
-    /* border: 4px solid rgba(105, 150, 143, .6); */
 }
 
-.footer-text{
-    float: left;
+.footer-container {
+    /* float: left;
     display: inline;
     font-size: 70%;
     font-family: Aegreya Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    /* padding: 25px 50px 25px 50px; */
-    margin: 25px 30px;
+    margin: 25px 30px; */
+
+    display: flex;
+    flex-direction: row;
+    font-size: 80%;
+    font-family: Aegreya Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.footer-text-address {
+   flex: 25%;
+   padding: 10px;
 }
 
+.footer-text-contact {
+    flex: 25%;
+    padding: 10px;
+ }
 
-.footer-text hr {
+ .footer-text-email {
+    flex: 25%;
+    padding: 10px;
+ }
+
+ .footer-text-social {
+    flex: 25%;
+    padding: 10px;
+ }
+
+.footer-container hr {
     border: 1px solid  rgba(105, 150, 143, 1);
-    width: 100%;
+    width: 75%;
     padding: 1px auto;
 }
 
 .social-links {
-    float: right;
-    padding-top: 50px;
+    /* float: right; */
+    /* padding-top: 50px; */
 }
 
 
 .social-links > li {
     display: inline;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     
 }
 
 .social-links i {
     font-size: 150%;
     color: #697096;
-    letter-spacing: 30px;
+    letter-spacing: 50px;
     
 }
 
@@ -702,7 +724,6 @@ hr {
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 25px;
         
         padding-top: 0;
         padding-left: 30px;
