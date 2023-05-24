@@ -469,6 +469,11 @@ footer {
     height: 700px;
  }
 
+ #class-heading {
+    height: 150px;
+    width: 100%;
+ }
+
 #class-heading h2 {
     font-size: 250%;
     color: #7783B7;
@@ -488,7 +493,7 @@ footer {
     height: 100%;
     display: flex;
     justify-content: center;
-    flex-warp: wrap;
+    flex-direction: row;
 }
 
 .column_left {
@@ -497,6 +502,7 @@ footer {
     background-image: url(../images/class1.jpg);
     background-size: cover;
     border-radius: 30px;
+    flex: 33%;
 
 }
 
@@ -506,6 +512,7 @@ footer {
     background-image: url(../images/class3.jpg);
     background-size: cover;
     border-radius: 30px;
+    flex: 33%;
 }
 
  .column_center {
@@ -514,6 +521,7 @@ footer {
     background-image: url(../images/class2.jpg);
     background-size: cover;
     border-radius: 30px;
+    flex: 33%;
  }
  
 
@@ -869,9 +877,6 @@ hr {
         margin: 10px auto;
     }
 
-    /* Contact form media query */
-
-
     .contact-section {
         height: 500px;
     }
@@ -885,5 +890,39 @@ hr {
     .class-btn {
         margin: 10px auto;
         padding: 8px 20px;
+    }
+
+    #classes-section {
+        margin:0 auto
+    }
+
+    #class-heading {
+        font-size: 80%;
+        height: 150px;
+        text-align: center;
+    }
+
+    #class-heading h2 {
+        padding: 10px 0;
+
+    }
+
+    #classes-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .column_left, .column_center, .column_right {
+        width: 100%;
+        height: 40%;
+        flex: none;
+    }
+
+    .class-text {
+        font-size: 70%;
+    }
+
+    .class-text h3, .class-text p {
+        padding: 10px 0;
     }
 }
