@@ -898,9 +898,9 @@ hr {
     }
 }
 
-/* Set media query for  screen size of 412px and below (smart phones) */
+/* Set media query for  screen size of 504px and below (smart phones) */
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 504px) {
    
    header {
     height: 120px;
@@ -1000,7 +1000,7 @@ hr {
 
     #class-heading {
         font-size: 70%;
-        height: 150px;
+        height: 100px;
         text-align: center;
     }
 
@@ -1031,7 +1031,7 @@ hr {
     #class-list-outer {
         flex-direction: column;
         height: 1450px;
-        margin-top: 230px;
+        margin-top: 200px;
     }
 
     #left-list, #right-list, #center-list {
