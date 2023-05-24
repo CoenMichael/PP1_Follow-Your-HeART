@@ -790,7 +790,7 @@ hr {
     top: 100px;
 }
 
-/* Set media query for minimum screen size of 375px */
+/* Set media query for minimum screen size of 375px (iPhone SE) */
 
 @media screen and (min-width: 375px) {
    
@@ -867,5 +867,23 @@ hr {
 
     .footer-container hr {
         margin: 10px auto;
+    }
+
+    /* Contact form media query */
+
+
+    .contact-section {
+        height: 500px;
+    }
+
+    .contact-form {
+        top: 10px;
+        font-size: 60%;
+        font-weight: 500;
+    }
+
+    .class-btn {
+        margin: 10px auto;
+        padding: 8px 20px;
     }
 }
