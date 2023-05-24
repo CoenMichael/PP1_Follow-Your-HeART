@@ -1093,11 +1093,13 @@ hr {
         height: 150px
         
     }
+}
+
 @media screen and (max-width: 483px) {
     footer {
         margin-top: 25px;
         height: 400px;
     
-}
+    }
   
 }
