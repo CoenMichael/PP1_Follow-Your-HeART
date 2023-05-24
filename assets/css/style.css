@@ -553,7 +553,7 @@ hr {
 }
 
 #center-list-heading hr {
-    margin: 10px auto;
+    margin: 10px 0;
 }
 
 
@@ -610,7 +610,7 @@ hr {
     padding-top: 30px;
     margin: 0 auto;
     flex: 33%;
-    text-align: center;
+    
  }
 
  .list-ctrls {
@@ -632,10 +632,12 @@ hr {
  } 
 
  #center-list-heading {
-  
     line-height: 20px;
-    /* padding-top: 30px; */
  }
+
+ .center-align li{
+    text-align: center;
+}
 
  #center-list-heading ul {
     display: inline-block;
@@ -679,7 +681,9 @@ hr {
  
 /* media queries */
 
- @media screen  and (max-width: 1200px) {  
+/* Media Query for screen size 1224px max-width and below (breakpoint for elements on Home page and Classes page) */
+
+ @media screen  and (max-width: 1224px) {  
      #tutor-outer {  
         height: 1650px;
         margin: 0 auto;
@@ -716,6 +720,26 @@ hr {
     footer {
         height: 250px;
     }
+
+    #classes-section {
+        height: 650px;
+    }
+
+    #class-heading {
+        padding-bottom: 20px;
+    }
+
+    .class-text {
+        font-size: 90%;
+    }
+
+    .class-text h3, .class-text p {
+        padding-top: 30px;
+    }
+
+    .column_center, .column_left, .column_right {
+        height: 60%;
+    }
 }
  
 /* Media screens 950px wide and below */
@@ -747,65 +771,136 @@ hr {
     .contact-form {
         left: 0;
     }
+
+    #classes-section {
+        height: 650px;
+    }
+
+    #class-heading {
+        padding-bottom: 20px;
+    }
+
+    .class-text {
+        font-size: 90%;
+    }
+
+    .class-text h3, .class-text p {
+        padding-top: 30px;
+    }
+
+    .column_center, .column_left, .column_right {
+        height: 60%;
+    }
+
+    .dates-container {
+        width: 80%;
+        font-size: 100%;
+    }
+
+    #center-list-heading h2 {
+        text-align: initial;
+    }
+
+    #center-list-heading hr {
+        margin: 10px 0;
+    }
+
 }
 
-@media screen and (max-width: 800px) {
+/* 820px max-width */
+
+@media screen and (max-width: 820px) {
     #gallery-images {
     column-count: 2;
     }
-}
 
+    
 
-@media screen and (max-width: 590px) {
-    .footer-container {
-    flex-direction: column;
+    #about-outer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 
-    width: 50%;
-    margin: auto;
+    #about-text {
+        width: 60%;
+        height: 60%;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        top: 100px;
+        font-size: 100%;
     }
 
     footer {
-        height: 450px;
+        height: 250px;
+        margin-top: 25px;
+    }
+
+    .footer-text-social {
+        flex: none;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    #classes-section {
+        height: 525px;
+    }
+
+    #class-heading {
+        font-size: 90%;
+    }
+
+    .class-text {
+        font-size: 80%;
+    }
+
+    .class-text h3, .class-text p {
+        padding: 15px 0;
+    }
+
+    .column_center, .column_left, .column_right {
+        height: 350px;
+    }
+
+    #right-list-heading, #left-list-heading {
+        float: none;
+    }
+
+    #right-list-heading h2, #left-list-heading h2, #center-list-heading h2{
+
+        font-size: 100%;
+    }
+
+    .center-align li{
+        text-align: center;
+    }
+
+    .dates-container {
+        width: 80%;
+        font-size: 90%;
     }
 }
 
-@media screen and (max-width: 524px) {
-   #menu {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-    font-size: 80%;
-   } 
-    
-   #logo {
-    font-size: 80%;
-   }
+/* 768px max-width */
 
-   #tagline {
-    width: 50%;
-    height: 50%;
-    /* margin: auto; */
+@media screen and (max-width: 768px) {
 
-    font-size: 150%;
+    .footer-text-social {
+        flex: 25%;
 }
 
-#about-text {
-    width: 50%;
-    height: 70%;
 
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 90%;
-
-    top: 100px;
 }
 
-/* Set media query for minimum screen size of 375px (iPhone SE) */
+@media screen and (max-width: 724px) {
+    #menu {
+        font-size: 85%;
+    }
+}
 
-@media screen and (min-width: 375px) {
+/* Set media query for  screen size of 412px and below (smart phones) */
+
+@media screen and (max-width: 412px) {
    
    header {
     height: 120px;
@@ -822,8 +917,10 @@ hr {
         font-size: 60%;
         text-align: center;
         float: none;
-        margin: 0 auto;
+        margin-left: 0;
+        padding: 10px;
         position: inherit;
+        line-height: 0;
     }
     #hero-outer, #hero-image {
         height: 400px;
@@ -902,7 +999,7 @@ hr {
     }
 
     #class-heading {
-        font-size: 80%;
+        font-size: 70%;
         height: 150px;
         text-align: center;
     }
@@ -934,6 +1031,7 @@ hr {
     #class-list-outer {
         flex-direction: column;
         height: 1450px;
+        margin-top: 230px;
     }
 
     #left-list, #right-list, #center-list {
@@ -958,7 +1056,8 @@ hr {
     }
 
     .dates-container {
-        font-size: 90%;
-        height: 150px;
+        font-size: 80%;
+        height: 150px
+        
     }
 }
