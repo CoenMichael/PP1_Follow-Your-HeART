@@ -75,6 +75,8 @@ The main features on this wesite is a Home page, Classes page, Gallery page and 
         
   - Accessibility
       - All colours and fonts are easily legible and relevant etsting was done using Lighthouse in devtools.
+
+![Screenshot of Lighthouse report results from Devtools](/assets/images/lighthouse_review.png)
         
   ## Deployment
   - The website was deployed to GitHub Pages by doing the following steps:
