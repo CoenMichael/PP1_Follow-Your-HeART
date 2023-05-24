@@ -4,7 +4,6 @@ Follow Your Heart is a website for an art school for people fo all ages that wis
 
 When accessing this website, the user will find all relevant information regarding the art school. The site informs the user about the school itself, the classes availabe, times, prices and also has a contact form should the user wish to get in touch. This site is aime at people of all ages that either wish to begin learning the basics of art to those with a more advanced skill that want to continue developing.
 
-    ![homepage_mockup](https://github.com/CoenMichael/PP1_Follow-Your-HeART/assets/128829027/54284649-dbfa-4f89-8a87-009e9c0e9e73)
     
 ## Main Features
 The main features on this wesite is a Home page, Classes page, Gallery page and a Contact page. 
@@ -42,6 +41,23 @@ The main features on this wesite is a Home page, Classes page, Gallery page and 
     
  ### Contact Us Page
   - Contact Us page
-    -
+    - The Contact Us page has a contact form that asks the user to submit relevant information in order for the school to best suit their needs. It includes full name, email and contact number as well as asking the user which course they are interested in.
+    - This is an important page as it allows the school to gauge specific interests of potential students.  
   
-
+## Testing
+    - Testing was carried out on various browsers such as Chrome, Safari and Firefox.
+    - Testing was done regarding the responsiveness and I can confirm that it functions on all standard screen sizes. This was done using the devtools toolbar on Chrome.
+    - All text on all pages from navigation menu to footer are clearly readable and user friendly.
+    - The form on the Contact Us page works appropriately. Only text will go in the name field, only email in the email field and only numbers in the phone number field. Each are required beofre the user can submit the form. 
+    
+ ### Validator Testing
+    - HTML
+        - No errors were found when passing each page code through the official W3C HTML validator.
+        
+    - CSS
+        - No errors were found when passing each page code through the official CSS validator (Jigsaw).
+        
+    - Accessibility
+        - All colours and fonts are easily legible and relevant etsting was done using Lighthouse in devtools.
+        
+  
