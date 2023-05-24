@@ -60,4 +60,24 @@ The main features on this wesite is a Home page, Classes page, Gallery page and 
     - Accessibility
         - All colours and fonts are easily legible and relevant etsting was done using Lighthouse in devtools.
         
-  
+  ## Deployment
+    - The website was deployed to GitHub Pages by doing the following steps:
+        - In the GitHub repository, click on the Settings tab.
+        - On the left of the page, click on the Pages tab to access the Pages section.
+        - Under the Branch heading, click on Select Branc dropdown menu and select main.
+        - Finally the page will provide a link to the finished website.
+        
+   Here is a link to the website: [Follow Your HeART](https://coenmichael.github.io/PP1_Follow-Your-HeART/index.html)
+   
+   ## Credits
+   
+   ### Content
+    - All icons were taken from [Font Awesome](https://fontawesome.com/)
+    - All fonts were chosen using [Google Fonts](https://fonts.google.com/?preview.text=follow%20your%20heART&preview.text_type=custom&query=paint)
+    - Font combinations were chosen using [fontjoy](https://fontjoy.com/#)
+    - The code to make the core structure of the site was taken from Code Institute [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/08-responsive-elements/02-responsive-header) project.
+    - [W3C Schools](https://www.w3schools.com/) also provided relevant support at certain sections of the project such as scale, hover and media queries.
+    - Further information on media queries taken from [CSS Media Queries & Responsive Web Design tutorial for Beginners](https://www.youtube.com/watch?v=69IbzTWg5PM)
+    
+   ### Media
+    - All images were taken from [Pexels](https://www.pexels.com/)
