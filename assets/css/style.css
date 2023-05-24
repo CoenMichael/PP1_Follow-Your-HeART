@@ -466,7 +466,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 2px;
 
-    height: 700px;
+    height: 750px;
  }
 
  #class-heading {
@@ -574,6 +574,9 @@ hr {
 
     padding-left: 30px;
     padding-right: 30px;
+
+    display: flex;
+    flex-direction: row;
  }
 
  #class-list-outer ul {
@@ -592,19 +595,21 @@ hr {
     padding-top: 30px;
     width: 33%;
     float: left;
+    flex: 33%;
  }
 
  #right-list {
     padding-top: 30px;
     width: 33%;
     float: right;
+    flex: 33%;
  }
 
  #center-list {
     width: 33%;
     padding-top: 30px;
     margin: 0 auto;
-
+    flex: 33%;
     text-align: center;
  }
 
@@ -924,5 +929,36 @@ hr {
 
     .class-text h3, .class-text p {
         padding: 10px 0;
+    }
+
+    #class-list-outer {
+        flex-direction: column;
+        height: 1450px;
+    }
+
+    #left-list, #right-list, #center-list {
+        width: 100%;
+        float: none;
+        flex: none;
+        font-size: 90%;
+
+        background-color: #F6F9FA;
+    }
+
+    #left-list-heading, #right-list-heading {
+        float: none;
+    }
+
+    #center-list {
+        text-align: initial;
+    }
+
+    #center-list-heading hr {
+        margin: 10px 0;
+    }
+
+    .dates-container {
+        font-size: 90%;
+        height: 150px;
     }
 }
