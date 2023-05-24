@@ -214,12 +214,12 @@ h1, h2 {
     width: 33%;
 }
 
-#tutor-heading h2 {
+.tutor-heading h2 {
     padding: 20px 10px 0;
     text-align: center;
 }
 
-#tutor-heading hr{
+.tutor-heading hr{
     border: 1px solid  rgba(105, 150, 143, 1);
     width: 50%;
     margin: 10px auto;
@@ -293,14 +293,6 @@ footer {
 }
 
 .footer-container {
-    /* float: left;
-    display: inline;
-    font-size: 70%;
-    font-family: Aegreya Sans, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 25px 30px; */
-
     display: flex;
     flex-direction: row;
     font-size: 80%;
@@ -332,7 +324,7 @@ footer {
 .footer-container hr {
     border: 1px solid  rgba(105, 150, 143, 1);
     width: 200px;
-    padding: 1px auto;
+    padding: 1px;
 }
 
 .social-links > li {
@@ -354,6 +346,15 @@ footer {
 
 /* gallery section */
 
+
+#gallery-heading {
+    font-size: 175%;
+    color: #7783B7;
+    text-align: center;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+
 #gallery-images {
     clear: both;
     line-height: 0;
@@ -372,11 +373,7 @@ footer {
     clear: left;
     background: url("../images/contact-image.jpg");
     background-size: cover;
-    background-size: center;
-    height: 900px;
-
-    /* border: 4px solid rgba(105, 150, 143, .6); */
-    
+    height: 900px;  
  }
 
  .contact-form {
@@ -433,6 +430,7 @@ footer {
     background-color: #697096;
     color: rgba(246, 249, 250, .8);
     display: block;
+
  }
 
  .submit-btn:hover {
@@ -476,7 +474,7 @@ footer {
 
 #class-heading h2 {
     font-size: 250%;
-    color: #7783B7;
+    color: #697096;
     text-align: center;
     padding: 25px 0;
     text-transform: uppercase;
@@ -524,7 +522,6 @@ footer {
     flex: 33%;
  }
  
-
  .class-text {
     font-family: Aegreya Sans, sans-serif;
     text-transform: uppercase;
@@ -561,6 +558,7 @@ hr {
     background-color: #F6F9FA;
     color: rgba(105, 150, 143, 1);;
  }
+
  div a {
     text-decoration: none;   
  }
@@ -609,8 +607,7 @@ hr {
     width: 33%;
     padding-top: 30px;
     margin: 0 auto;
-    flex: 33%;
-    
+    flex: 33%;   
  }
 
  .list-ctrls {
@@ -813,9 +810,7 @@ hr {
     #gallery-images {
     column-count: 2;
     }
-
     
-
     #about-outer {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -1016,7 +1011,7 @@ hr {
 
     .column_left, .column_center, .column_right {
         width: 100%;
-        height: 40%;
+        height: 200px;
         flex: none;
     }
 
